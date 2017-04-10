@@ -74,7 +74,8 @@ Special characters can break strings,
 ```
 ### String Methods
   1. len()
-     ``` cat = " Bengal Tiger"
+     ``` 
+         cat = " Bengal Tiger"
          print len(cat)
      ```
   2. lower()
