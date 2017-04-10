@@ -78,16 +78,17 @@ Special characters can break strings,
          print len(cat)
      ```
   2. lower()
-    ```
-    print cat.lower()
-    ```
+     ```
+         print cat.lower()
+     ```
   3. upper()
-    ``` 
-    print cat.upper()
-    ```
+     ``` 
+         print cat.upper()
+     ```
   4. str()
-    ``` pi=3.14
-        print str(pi)
-    ```
+     ``` 
+         pi=3.14
+         print str(pi)
+     ```
 
   
