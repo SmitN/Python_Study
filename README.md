@@ -42,4 +42,15 @@ It means any space to the right.for Example,
     modulo = 5 % 3
     ```
 
+# Strings
+  Very useful data type is the string, A string can contains letters, numbers and symbols.
+  ```
+  smit = "Hello Smit "
+  print smit
+
+  life = "Welcome"
+  print life
+  ```
+
+  ### Escaping Characters
 
