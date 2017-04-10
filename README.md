@@ -17,7 +17,7 @@ It means any space to the right.for Example,
   print spam()
 ```
 2. Comments
-  2. Single Line Comments
+  1. Single Line Comments
 
        Comment is a line of text that is excluded from python run,For Expample
        ```
