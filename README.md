@@ -19,8 +19,9 @@ It means any space to the right.for Example,
 ## Single Line Comments
 
 Comment is a line of text that is excluded from python run,For Expample
-"# This is a single line comment"
-
+```
+# This is a single line comment"
+```
 # Multi-line Comment
 
 Use tripple quotation marks:
