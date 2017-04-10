@@ -7,7 +7,7 @@
 
 meal = 64.00
 tax = 0.07
-tip = 0.15
+tip = 0.18
 
 # Lets get subtotal
 
