@@ -53,4 +53,10 @@ It means any space to the right.for Example,
   ```
 
   ### Escaping Characters
-
+Special characters can break strings,
+```
+'There's a error in this string'
+```
+```
+'There\'s no errors in this sting'
+```
