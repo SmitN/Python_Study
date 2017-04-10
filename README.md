@@ -6,7 +6,7 @@ my_int= 7
 my_float = 1.23
 my_bool = True/False
 ```
-1. ###Whitespace
+### Whitespace
 
 Very important as its used in structure code.
 It means any space to the right.for Example,
@@ -16,12 +16,12 @@ It means any space to the right.for Example,
       return apple
   print spam()
 ```
-2. ##Comments
+### Comments
   ### Single Line Comments
 
        Comment is a line of text that is excluded from python run,For Expample
        ```
-       # This is a single line comment"
+       # This is a single line comment.
        ```
   ### Multi-line Comment
 
@@ -32,7 +32,7 @@ It means any space to the right.for Example,
      """
      ```
 
-3. ## Math / Arithmetic Operations
+### Math / Arithmetic Operations
     ```
     addition = 5 + 5
     substraction = 100 - 10
