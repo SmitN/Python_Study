@@ -60,3 +60,34 @@ Special characters can break strings,
 ```
 'There\'s no errors in this sting'
 ```
+
+ ### String indexing
+ Each character in a string is assigned a number. which is called index.
+ ```
+ In string "smit" list each characters and its index
+
+ s = "smit"[0]
+ m = "smit"[1]
+ i = "smit"[2]
+ t = "smit"[3]
+
+```
+### String Methods
+  1. len()
+     ``` cat = " Bengal Tiger"
+         print len(cat)
+     ```
+  2. lower()
+    ```
+    print cat.lower()
+    ```
+  3. upper()
+    ``` 
+    print cat.upper()
+    ```
+  4. str()
+    ``` pi=3.14
+        print str(pi)
+    ```
+
+  
