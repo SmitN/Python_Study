@@ -92,4 +92,26 @@ Special characters can break strings,
          print str(pi)
      ```
 
-  
+### String Concatenation
+Combining strings together is called concatenation. Lets try some examples.
+
+```
+print " life " + " is " + " good "
+print "The value of pi is " + str(3.14)
+
+```
+### String Formating with % 
+
+```
+name = "Smit"
+print "Hellp %s" % (name)
+
+```
+
+```
+string1= "Hello"
+string2= "World"
+
+print " %s Welcome to my %" %(string1, string2)
+
+```
