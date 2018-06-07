@@ -30,7 +30,7 @@ do
     tput -Txterm sgr 0
   fi
 
-  $SSH_CMD administrator@$host "set /map1/oemhp_alertmail1 oemhp_alertmail_email=BTEC.ALERTS@nex.com"|grep "status_tag" >>/dev/null
+  $SSH_CMD administrator@$host "set /map1/oemhp_alertmail1 oemhp_alertmail_email=ALERTS@abc.com"|grep "status_tag" >>/dev/null
   if [[ $? -ne 0 ]];
   then
     tput -Txterm setf 4
@@ -38,7 +38,7 @@ do
     tput -Txterm sgr 0
   fi
 
-  $SSH_CMD administrator@$host "set /map1/oemhp_alertmail1 oemhp_alertmail_sender_domain=nex.com"|grep "status_tag">>/dev/null
+  $SSH_CMD administrator@$host "set /map1/oemhp_alertmail1 oemhp_alertmail_sender_domain=abc.com"|grep "status_tag">>/dev/null
   if [[ $? -ne 0 ]];
   then
     tput -Txterm setf 4
@@ -46,7 +46,7 @@ do
     tput -Txterm sgr 0
   fi
 
-  $SSH_CMD administrator@$host "set /map1/oemhp_alertmail1 oemhp_alertmail_smtp_server=10.44.167.200"|grep "status_tag">>/dev/null
+  $SSH_CMD administrator@$host "set /map1/oemhp_alertmail1 oemhp_alertmail_smtp_server=10.10.10.10"|grep "status_tag">>/dev/null
   if [[ $? -ne 0 ]];
   then
     tput -Txterm setf 4
